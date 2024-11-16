@@ -1,0 +1,23 @@
+{
+  "name": "openai-realtime-stream",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "@openai/realtime-api-beta": "github:openai/openai-realtime-api-beta",
+    "buffer": "^6.0.3",
+    "dotenv": "^16.4.5",
+    "speaker": "^0.5.5",
+    "wav-decoder": "^1.3.0",
+    "wav-encoder": "^1.3.0",
+    "ws": "^8.18.0"
+  }
+}
